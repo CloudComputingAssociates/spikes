@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html data-ng-app="app">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <script src="../external-libraries/angular.min.js"></script>
+    <script src="app.js"></script>
+
+</head>
+
+<body  data-ng-controller="theController">
+<div>
+    <p><label id="lbl">{{greeting.text}}</label></p>
+    <p><button id="btn" data-ng-click="handleClick()">Click Me</button></p>
+</div>
+</body>
+</html>
