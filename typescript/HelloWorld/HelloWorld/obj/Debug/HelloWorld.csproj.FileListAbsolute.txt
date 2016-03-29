@@ -4,3 +4,9 @@ C:\Users\mtmazurik\Documents\GitHub\Typescript\HelloWorld\HelloWorld\bin\HelloWo
 C:\Users\mtmazurik\Documents\GitHub\Typescript\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
 C:\Users\mtmazurik\Documents\GitHub\Typescript\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
 C:\Users\mtmazurik\Documents\GitHub\Typescript\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
+C:\Users\mtmazurik\Documents\GitHub\spikes\typescript\HelloWorld\HelloWorld\bin\HelloWorld.dll.config
+C:\Users\mtmazurik\Documents\GitHub\spikes\typescript\HelloWorld\HelloWorld\bin\HelloWorld.dll
+C:\Users\mtmazurik\Documents\GitHub\spikes\typescript\HelloWorld\HelloWorld\bin\HelloWorld.pdb
+C:\Users\mtmazurik\Documents\GitHub\spikes\typescript\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+C:\Users\mtmazurik\Documents\GitHub\spikes\typescript\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
+C:\Users\mtmazurik\Documents\GitHub\spikes\typescript\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
