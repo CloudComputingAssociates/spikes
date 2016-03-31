@@ -3,14 +3,14 @@
 message = "Env vars... "
 echo message
 
-DEV = "/home/dev/webs"
-message = "DEV: "
-message += $DEV
+DEV="/home/dev/webs"
+message="DEV: "
+message+=$DEV
 echo message
 
 JENKINS_HOME = "/var/lib/jenkins"
-message = "JENKINS_HOME: "
-message += $JENKINS_HOME
+message="JENKINS_HOME: "
+message+=$JENKINS_HOME
 echo message
 
 # nuke everything in DEV
