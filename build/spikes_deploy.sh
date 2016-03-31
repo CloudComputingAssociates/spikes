@@ -1,11 +1,14 @@
 #!/bin/bash
 # env vars
 echo "Env vars... "
-DEV = '/home/dev/webs'
+set DEV = '/home/dev/webs'
+echo "DEV: {$DEV}"
+set JENKINS_HOME = '/var/lib/jenkins'
+echo "JENKINS_HOME: {$JENKINS_HOME}"
 
 # nuke everything in DEV
 echo "Nuke everything ..."
-rm -rf ${DEV}
+rm -rfv ${DEV}
 
 # Spikes - typescript HelloWorld example, 1-page app
 echo "Moving typescript HelloWorld example ..."
