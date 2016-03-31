@@ -13,16 +13,23 @@ message="JENKINS_HOME: "
 message+=$JENKINS_HOME
 echo $message
 
-# nuke everything in DEV
+# nuke everything under DEV
 echo "Nuke everything ..."
-rm -rfv ${DEV}
+rm -rfv $DEV
+# re-create dev/webs dir
+mkdir $DEV
 
-# Spikes - typescript HelloWorld example, 1-page app
+# Spikes 
+
+# Spike: typescript example, 1-page app (HellowWorld)
 message="Moving typescript HelloWorld example ..."
 echo $message
+# re-create
 mkdir $DEV/HelloWorld
+# move only files needed for website
 cp $JENKINS_HOME/jobs/Spikes/workspace/typescript/HelloWorld/HelloWorld/app.cs ${DEV}/HelloWorld/
 cp $JENKINS_HOME/jobs/Spikes/workspace/typescript/HelloWorld/HelloWorld/app.js ${DEV}/HelloWorld/
 cp $JENKINS_HOME/jobs/Spikes/workspace/typescript/HelloWorld/HelloWorld/index.html ${DEV}/HelloWorld/
+
 echo "done."
 
