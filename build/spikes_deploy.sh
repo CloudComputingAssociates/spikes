@@ -24,7 +24,7 @@ mkdir $DEV
 # Landing Page: deploy single Page
 cp $JENKINS_HOME/jobs/Spikes/workspace/LandingPage/index.html ${DEV}
 
-# Spike: typescript example, 1-page app (HellowWorld)
+# Spike: typescript example, 1-page app (HelloWorld)
 message="Moving typescript HelloWorld example ..."
 echo $message
 # re-create
@@ -33,6 +33,19 @@ mkdir $DEV/HelloWorld
 cp $JENKINS_HOME/jobs/Spikes/workspace/typescript/HelloWorld/HelloWorld/app.css ${DEV}/HelloWorld/
 cp $JENKINS_HOME/jobs/Spikes/workspace/typescript/HelloWorld/HelloWorld/app.js ${DEV}/HelloWorld/
 cp $JENKINS_HOME/jobs/Spikes/workspace/typescript/HelloWorld/HelloWorld/index.html ${DEV}/HelloWorld/
+
+# Spike: angular example (HelloAngular)
+message="Moving typescript HelloAngular example ..."
+echo $message
+# create dirs
+mkdir $DEV/HelloAngular
+mkdir $DEV/HelloAngular/external-libraries
+# move libs
+cp $JENKINS_HOME/jobs/Spikes/workspace/angular/external-libraries/*.* ${DEV}/HelloAngular/external-libraries
+# move files
+cp $JENKINS_HOME/jobs/Spikes/workspace/angular/helloangular/app.css ${DEV}/HelloAngular/
+cp $JENKINS_HOME/jobs/Spikes/workspace/angular/helloangular/app.js ${DEV}/HelloAngular/
+cp $JENKINS_HOME/jobs/Spikes/workspace/angular/helloangular/index.html ${DEV}/HelloAngular/
 
 echo "done."
 
