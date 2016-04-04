@@ -21,6 +21,9 @@ mkdir $DEV
 
 # Spikes 
 
+# Landing Page: deploy single Page
+cp $JENKINS_HOME/jobs/Spikes/workspace/Landing ${DEV}/HelloWorld/
+
 # Spike: typescript example, 1-page app (HellowWorld)
 message="Moving typescript HelloWorld example ..."
 echo $message
