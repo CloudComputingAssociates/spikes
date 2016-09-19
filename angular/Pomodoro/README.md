@@ -1,4 +1,5 @@
-# Chapter 1
+# Chapter 1 - marty modified
+
 ## Creating our first component in Angular 2
 
 We kickstart our journey into Angular by building our very first component, which is the bread and butter of all Angular 2 applications. Angular 2 components conform the bricks of all web applications and by the end of this chapter we will have a fully functional web widget harnessing the power of Angular.
