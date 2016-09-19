@@ -49,9 +49,7 @@ cp $JENKINS_HOME/jobs/Spikes/workspace/angular/helloangular/index.html ${DEV}/He
 
 #Spike: angular Pomodoro from Angular 2 Essentials
 #create dirs
-mkdir $DEV/Pomodoro
-mkdir $DEV/Pomodoro/assets
-cp -r $JENKINS_HOME/jobs/Spikes/workspace/angular/Pomodoro ${DEV}/Pomodoro  #recursive copy everything
+cp -r $JENKINS_HOME/jobs/Spikes/workspace/angular/Pomodoro ${DEV} #recursive copy everything
 
 echo "done."
 
