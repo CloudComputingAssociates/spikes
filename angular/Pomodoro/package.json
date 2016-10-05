@@ -1,18 +1,15 @@
 {
-  "name": "Hello Angular2",
+  "name": "angular-quickstart",
   "version": "1.0.0",
-  "description": "Getting up to speed on Angular2",
-  "author": "Marty Mazurik"
   "scripts": {
-    "preinstall": "rm -rf ./built",
-    "postinstall": "npm run typings install",
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "lite": "lite-server",
-    "prestart": "tsc",
-    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "typings": "typings"
   },
+  "license": "ISC",
   "dependencies": {
     "@angular/common": "~2.0.1",
     "@angular/compiler": "~2.0.1",
