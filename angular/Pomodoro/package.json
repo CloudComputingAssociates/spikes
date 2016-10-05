@@ -1,6 +1,7 @@
 {
   "name": "angular-quickstart",
   "version": "1.0.0",
+  "main": "pomodoro-timer.js",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "lite": "lite-server",
