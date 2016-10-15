@@ -1,3 +1,4 @@
+ls
 # Chapter 1 - marty modified
 
 ## Creating our first component in Angular 2

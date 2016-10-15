@@ -66,17 +66,49 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Pomodoro", "Pomodoro\", "{6
 		SlnRelativePath = "Pomodoro\"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "angular2-website-routes", "angular2-website-routes\", "{6799CE70-ABE4-4C0A-9F75-2EB140232012}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_28141"
+		Debug.AspNetCompiler.PhysicalPath = "angular2-website-routes\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_28141\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_28141"
+		Release.AspNetCompiler.PhysicalPath = "angular2-website-routes\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_28141\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "28141"
+		SlnRelativePath = "angular2-website-routes\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C7CA9509-5AAD-4192-A358-79C8A516E105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C7CA9509-5AAD-4192-A358-79C8A516E105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CA9509-5AAD-4192-A358-79C8A516E105}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CA9509-5AAD-4192-A358-79C8A516E105}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{C452A983-FF7D-4BA5-9286-D0D34886529D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C452A983-FF7D-4BA5-9286-D0D34886529D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C452A983-FF7D-4BA5-9286-D0D34886529D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C452A983-FF7D-4BA5-9286-D0D34886529D}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{6811C0C0-CB97-44ED-85D0-E73540E81365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6811C0C0-CB97-44ED-85D0-E73540E81365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6811C0C0-CB97-44ED-85D0-E73540E81365}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6811C0C0-CB97-44ED-85D0-E73540E81365}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6799CE70-ABE4-4C0A-9F75-2EB140232012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6799CE70-ABE4-4C0A-9F75-2EB140232012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6799CE70-ABE4-4C0A-9F75-2EB140232012}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6799CE70-ABE4-4C0A-9F75-2EB140232012}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

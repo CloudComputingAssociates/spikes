@@ -51,5 +51,8 @@ cp $JENKINS_HOME/jobs/Spikes/workspace/angular/helloangular/index.html ${DEV}/He
 #create dirs
 cp -r $JENKINS_HOME/jobs/Spikes/workspace/angular/Pomodoro ${DEV} #recursive copy everything
 
+#Spike: angular 2 routing example OneHungryMind.com/build-a-simple-website-with-angular-2 
+cp -r $JENKINS_HOME/jobs/Spikes/workspace/angular/angular2-website-routes ${DEV}
+
 echo "done."
 
