@@ -32,7 +32,7 @@ mkdir $DEV/HelloWorld
 # move only files needed for website
 cp $JENKINS_HOME/jobs/Spikes/workspace/typescript/HelloWorld/HelloWorld/app.css ${DEV}/HelloWorld/
 cp $JENKINS_HOME/jobs/Spikes/workspace/typescript/HelloWorld/HelloWorld/app.js ${DEV}/HelloWorld/
-cp $JENKINS_HOME/jobs/Spikes/workspace/typescript/HelloWorld/HelloWorld/index.html ${DEV}/HellfffoWorld/
+cp $JENKINS_HOME/jobs/Spikes/workspace/typescript/HelloWorld/HelloWorld/index.html ${DEV}/HelloWorld/
 
 # Spike: angular example (HelloAngular)
 message="Moving typescript HelloAngular example ..."
@@ -49,10 +49,10 @@ cp $JENKINS_HOME/jobs/Spikes/workspace/angular/helloangular/index.html ${DEV}/He
 
 #Spike: angular Pomodoro from Angular 2 Essentials
 #create dirs
-cp -r $JENKINS_HOME/jobs/Spikes/workspace/angular/Pomodoro ${DEV} #recursive copy everything
+#cp -r $JENKINS_HOME/jobs/Spikes/workspace/angular/Pomodoro ${DEV} #recursive copy everything
 
 #Spike: angular 2 routing example OneHungryMind.com/build-a-simple-website-with-angular-2 
-cp -r $JENKINS_HOME/jobs/Spikes/workspace/angular/angular2-website-routes ${DEV}
+#cp -r $JENKINS_HOME/jobs/Spikes/workspace/angular/angular2-website-routes ${DEV}
 
 echo "done."
 
