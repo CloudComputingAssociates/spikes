@@ -3,88 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "helloangular", "helloangular\", "{C7CA9509-5AAD-4192-A358-79C8A516E105}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NG2Reference", "NG2Reference\", "{160669EF-50A5-453C-B41E-5473C77D2519}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_5145"
-		Debug.AspNetCompiler.PhysicalPath = "helloangular\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5145\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_16463"
+		Debug.AspNetCompiler.PhysicalPath = "NG2Reference\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_16463\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_5145"
-		Release.AspNetCompiler.PhysicalPath = "helloangular\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_5145\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_16463"
+		Release.AspNetCompiler.PhysicalPath = "NG2Reference\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_16463\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "5145"
-		SlnRelativePath = "helloangular\"
-	EndProjectSection
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HelloWorld", "HelloWorld\", "{C452A983-FF7D-4BA5-9286-D0D34886529D}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_2520"
-		Debug.AspNetCompiler.PhysicalPath = "HelloWorld\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2520\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_2520"
-		Release.AspNetCompiler.PhysicalPath = "HelloWorld\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2520\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "2520"
-		SlnRelativePath = "HelloWorld\"
-	EndProjectSection
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Pomodoro", "Pomodoro\", "{6811C0C0-CB97-44ED-85D0-E73540E81365}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_2646"
-		Debug.AspNetCompiler.PhysicalPath = "Pomodoro\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2646\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_2646"
-		Release.AspNetCompiler.PhysicalPath = "Pomodoro\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2646\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "2646"
-		SlnRelativePath = "Pomodoro\"
-	EndProjectSection
-EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "angular2-website-routes", "angular2-website-routes\", "{6799CE70-ABE4-4C0A-9F75-2EB140232012}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_28141"
-		Debug.AspNetCompiler.PhysicalPath = "angular2-website-routes\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_28141\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_28141"
-		Release.AspNetCompiler.PhysicalPath = "angular2-website-routes\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_28141\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "28141"
-		SlnRelativePath = "angular2-website-routes\"
+		VWDPort = "16463"
+		SlnRelativePath = "NG2Reference\"
 	EndProjectSection
 EndProject
 Global
@@ -93,22 +30,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C7CA9509-5AAD-4192-A358-79C8A516E105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7CA9509-5AAD-4192-A358-79C8A516E105}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7CA9509-5AAD-4192-A358-79C8A516E105}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7CA9509-5AAD-4192-A358-79C8A516E105}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{C452A983-FF7D-4BA5-9286-D0D34886529D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C452A983-FF7D-4BA5-9286-D0D34886529D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C452A983-FF7D-4BA5-9286-D0D34886529D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{C452A983-FF7D-4BA5-9286-D0D34886529D}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{6811C0C0-CB97-44ED-85D0-E73540E81365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6811C0C0-CB97-44ED-85D0-E73540E81365}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6811C0C0-CB97-44ED-85D0-E73540E81365}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{6811C0C0-CB97-44ED-85D0-E73540E81365}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{6799CE70-ABE4-4C0A-9F75-2EB140232012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6799CE70-ABE4-4C0A-9F75-2EB140232012}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6799CE70-ABE4-4C0A-9F75-2EB140232012}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{6799CE70-ABE4-4C0A-9F75-2EB140232012}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{160669EF-50A5-453C-B41E-5473C77D2519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160669EF-50A5-453C-B41E-5473C77D2519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160669EF-50A5-453C-B41E-5473C77D2519}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{160669EF-50A5-453C-B41E-5473C77D2519}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
