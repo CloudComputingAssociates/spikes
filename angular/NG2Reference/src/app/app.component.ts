@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
-
-import { ApiService } from './shared';
-
+import { Http } from '@angular/http'; //mtm 11/11/2016; added to reference http module
 import '../style/app.scss';
 
 @Component({
@@ -29,9 +27,6 @@ import '../style/app.scss';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  url = 'https://github.com/preboot/angular2-webpack';
+    url = 'https://github.com/preboot/angular2-webpack'
 
-  constructor(private api: ApiService) {
-    // Do something with api
-  }
 }

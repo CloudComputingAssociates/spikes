@@ -1,3 +1,15 @@
 <p>
-  Home Works!
+    Home Works! <p>
 </p>
+<div>
+    <ul>
+        <li *ngFor="let ci of computeInstances">
+            {{ci.name}}
+        </li>
+    </ul>
+    <button (click)="clicked()" style="background:red">Load Compute Instances</button>
+    <p></p>
+    <section *ngIf="errorMessage">
+        Error message: {{errorMessage}}
+    </section>
+</div>
