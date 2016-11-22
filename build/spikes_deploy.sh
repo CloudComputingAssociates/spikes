@@ -3,7 +3,7 @@
 message="Env vars... "
 echo $message
 
-DEV="/home/dev/webs"
+DEV="/home/dev/webs/spikes"
 message="DEV: "
 message+=$DEV
 echo $message
@@ -13,7 +13,7 @@ message="JENKINS_HOME: "
 message+=$JENKINS_HOME
 echo $message
 
-# nuke everything under DEV
+# nuke everything under DEV/spikes
 echo "Nuke everything ..."
 rm -rfv $DEV
 # re-create dev/webs dir
@@ -21,7 +21,7 @@ mkdir $DEV
 
 # Spikes 
 
-# Landing Page: deploy single Page
+# Spikes Landing Page: deploy single Page
 cp $JENKINS_HOME/jobs/Spikes/workspace/LandingPage/index.html ${DEV}
 
 # Spike: typescript example, 1-page app (HelloWorld)
