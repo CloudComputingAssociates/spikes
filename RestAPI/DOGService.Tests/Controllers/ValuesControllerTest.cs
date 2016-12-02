@@ -21,7 +21,7 @@ namespace DOGService.Tests.Controllers
             ValuesController controller = new ValuesController();
 
             // Act
-            JsonResult<object> result = controller.Get();
+            JsonResult<object> result = (JsonResult<object>)controller.Get();
 
             // Assert
             //Assert.IsNotNull(result);
