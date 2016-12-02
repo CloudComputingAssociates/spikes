@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOGService", "DOGService\DO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOGService.Tests", "DOGService.Tests\DOGService.Tests.csproj", "{33F3C562-AC8C-4101-AD6A-D258C4007807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLib.Tests", "AzureLib.Tests\AzureLib.Tests.csproj", "{07771AB6-6964-4208-BB04-620F888F8B55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLib", "..\..\DevOpsGenie\RestAPI\AzureLib\AzureLib.csproj", "{52DEA0FB-04C1-4261-A257-8B7DCAAB351A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLib", "AzureLib\AzureLib.csproj", "{52DEA0FB-04C1-4261-A257-8B7DCAAB351A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureLib.Tests", "..\..\DevOpsGenie\RestAPI\AzureLib.Tests\AzureLib.Tests.csproj", "{07771AB6-6964-4208-BB04-620F888F8B55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +25,14 @@ Global
 		{33F3C562-AC8C-4101-AD6A-D258C4007807}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33F3C562-AC8C-4101-AD6A-D258C4007807}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33F3C562-AC8C-4101-AD6A-D258C4007807}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07771AB6-6964-4208-BB04-620F888F8B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07771AB6-6964-4208-BB04-620F888F8B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07771AB6-6964-4208-BB04-620F888F8B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07771AB6-6964-4208-BB04-620F888F8B55}.Release|Any CPU.Build.0 = Release|Any CPU
 		{52DEA0FB-04C1-4261-A257-8B7DCAAB351A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{52DEA0FB-04C1-4261-A257-8B7DCAAB351A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52DEA0FB-04C1-4261-A257-8B7DCAAB351A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52DEA0FB-04C1-4261-A257-8B7DCAAB351A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07771AB6-6964-4208-BB04-620F888F8B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07771AB6-6964-4208-BB04-620F888F8B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07771AB6-6964-4208-BB04-620F888F8B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07771AB6-6964-4208-BB04-620F888F8B55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
